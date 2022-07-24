@@ -18,7 +18,7 @@ jobs:
       node-version:
         type: string
     executor: << parameters.os >>
-    parallelism: 30
+    parallelism: 1
     steps:
       - checkout
       - node/install:
